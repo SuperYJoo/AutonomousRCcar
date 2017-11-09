@@ -12,7 +12,6 @@ Using OpenCV Library and Raspberry Pi, Arduino
 
 
 
-Autonomous Vehicle using real-time image processing
 
 
 
