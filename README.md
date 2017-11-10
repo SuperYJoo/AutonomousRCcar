@@ -16,9 +16,9 @@ Using OpenCV Library and Raspberry Pi, Arduino
 
 
 
-
+# SPEC
 l	 Real wheel drive & Front steering systeml	 
-2 Motors(DC motor for engine, Servo motor for steering)l	
+2 Motors(DC motor for engine, Servo motor for steering)	
 Raspberry Pi 3 with Camera module V2 8Megapixell	 
 Arduino Uno & Arduino Nanol	 
 9V Battery for Arduino and Servo motorl	 
@@ -28,3 +28,9 @@ Ultrasonic sensor for stopping  when obstacle is detectedl
 
 
 
+# NOTE
+- Install openCV-3.1.0
+- Include #include<opencv/cvaux.h>  #include <opencv2/highgui/highgui.hpp>  #include <opencv2/highgui/highgui.hpp>
+          #include <opencv2/highgui/highgui.hpp>  #include <opencv2/highgui/highgui.hpp>
+          
+- Make text file to share with your line detect Project file and Raspberry Pi 3
