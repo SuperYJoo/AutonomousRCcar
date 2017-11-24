@@ -16,6 +16,36 @@ Using OpenCV Library and Raspberry Pi, Arduino
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # SPEC
 l	 Real wheel drive & Front steering systeml	 
 2 Motors(DC motor for engine, Servo motor for steering)	
