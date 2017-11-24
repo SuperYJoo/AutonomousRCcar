@@ -26,15 +26,24 @@ It consists of three orders
 
 # Hough transformation using OpenCV
 
+If a straight line is represented by xcosθ + ysinθ = ρ, the same straight line falls to one point in the θ-ρ plane, and therefore a straight line is found by clustering in the θ-ρ plane.
+
+Using  cvHoughLines2() Function in OpenCV Library.This function returns an array of (r, θ) values as pixels in distance and in degrees in radians.
 
 
 
 
+# Autonomous driving vehicle full operation algorithm
 
+- Car speed : 0.2 m/s 
+- Car steering angle :  5 º
+- Obstacle detecting distance : 18cm
 
-
-
-
+1. Measure the lane angle in real time with VNC through the image processing program.
+2. Depending on the measured angle, send 1: left, 2: straight, 3: right to the raspberry pi with file I / O.
+3. Raspberry pi sends control information to Arduino for the corresponding signal.
+4. Arduino controls the vehicle's steering system to match the signal.
+5. When the obstacle is detected by the ultrasonic sensor, the vehicle stops and turns on the LED as a brake light.
 
 
 
@@ -66,3 +75,7 @@ Ultrasonic sensor for stopping  when obstacle is detectedl
           #include <opencv2/highgui/highgui.hpp>  #include <opencv2/highgui/highgui.hpp>
           
 - Make text file to share with your line detect Project file and Raspberry Pi 3
+
+
+# Youtube URL
+https://youtu.be/9cJNuXgLgDg
