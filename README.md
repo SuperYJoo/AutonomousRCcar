@@ -16,13 +16,15 @@ Using OpenCV Library and Raspberry Pi, Arduino
 
 
 
+# Orders
+
+It consists of three orders
+1. Real-time image recognition through camera module of Raspberry Pi 3 using VNC(Virtual Networking Computing)
+2. Line detection using Hough transformation 
+3. Setting the direction of the car according to the angle change of the lane
 
 
-
-
-
-
-
+# Hough transformation using OpenCV
 
 
 
